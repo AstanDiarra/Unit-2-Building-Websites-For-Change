@@ -1,0 +1,90 @@
+/* The code on lines 2-4 centers the text of all h1's on the page.*/
+h1{
+    text-align:center;
+}
+/*The code on lines 6-11 centers all images on the page and gives them a width of 400px.*/
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:400px;
+}
+
+iframe{
+  display:flex;
+  justify-content: center;
+}
+/* The code on lines 14-16 centers the text of all h2's on the page*/
+h2{
+    text-align:center;
+  padding:10px;
+}
+
+/* The code on lines 19-22 aligns all the sections horizontally on the bottom*/
+.sectionsContainer{
+    display:flex;
+    justify-content:space-between;
+}
+
+
+.pic1{
+width: 450px;
+border: 15px #07245a dashed;
+padding:50px;
+display:center;
+justify-content:center;
+  flex-start;
+}
+
+.pic2{
+  width: 450px;
+border: 15px #07245a dashed;
+  padding:10px;
+}
+
+.gallery {
+  display: flex
+}
+
+
+
+.box1{
+    border: 5px #A6BAF7 solid;
+    margin:25px;
+  padding: 10px
+}
+
+.box2{
+    border: 5px #A6BAF7 solid;
+    margin:25px;
+  padding:10px
+}
+
+.box3{
+    border: 5px #A6BAF7 solid;
+    margin:25px;
+  padding:10px
+}
+
+
+h1{
+  color:#A6BAF7;
+  text-align:center;
+}
+
+body{
+  background-color: #03153a;
+    color:#A6BAF7;
+  justify-content: center;
+}
+
+img{
+  width:400px
+  display:flex;
+}
+.yeah{
+  display:flex;
+  justify-content: center;
+  padding:20px
+
+}
